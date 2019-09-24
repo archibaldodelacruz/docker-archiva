@@ -27,8 +27,8 @@ fi
 #
 # Archiva binary parameters
 #
-ARCHIVA_RELEASE_URL=${ARCHIVA_RELEASE_URL:-https://www-us.apache.org/dist/archiva/2.2.4/binaries/apache-archiva-2.2.4-bin.tar.gz}
-ARCHIVA_RELEASE_MD5SUM=${ARCHIVA_RELEASE_MD5SUM:-597aeb9f42e634ae58256fb99997040f}
+ARCHIVA_RELEASE_URL=${ARCHIVA_RELEASE_URL:-https://www-us.apache.org/dist/archiva/2.2.3/binaries/apache-archiva-2.2.3-bin.tar.gz}
+ARCHIVA_RELEASE_MD5SUM=${ARCHIVA_RELEASE_MD5SUM:-085ea9afd0bef07fba71b892af44dc11}
 
 #
 # MySQL connector parameters
