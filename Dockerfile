@@ -28,7 +28,7 @@ EXPOSE 8080/tcp
 HEALTHCHECK CMD /healthcheck.sh
 
 # Switch to the archiva user
-USER archiva
+USER 1000
 
 # The volume for archiva
 VOLUME /archiva-data
