@@ -29,6 +29,8 @@ HEALTHCHECK CMD /healthcheck.sh
 
 # Switch to the archiva user
 USER 1000
+RUN chgrp -R 0 /archiva /archiva-data && \
+  chmod -R g=u /archiva /archiva-data
 
 # The volume for archiva
 VOLUME /archiva-data
